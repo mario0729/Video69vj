@@ -1,0 +1,160 @@
+2018-08-27 00:24:07 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: Video69vj)
+2018-08-27 00:24:07 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.5.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2o  27 Mar 2018), cryptography 2.2.2, Platform Windows-10-10.0.17134-SP0
+2018-08-27 00:24:07 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'Video69vj', 'LOG_ENABLED': False, 'LOG_FILE': 'mySpider.log', 'NEWSPIDER_MODULE': 'Video69vj.spiders', 'SPIDER_MODULES': ['Video69vj.spiders'], 'USER_AGENT': 'iaskspider'}
+2018-08-27 00:24:07 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-08-27 00:24:08 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'Video69vj.middlewares.video69vj',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-08-27 00:24:08 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-08-27 00:24:08 [scrapy.middleware] INFO: Enabled item pipelines:
+['Video69vj.pipelines.video69vjScrapyPipeline']
+2018-08-27 00:24:08 [scrapy.core.engine] INFO: Spider opened
+2018-08-27 00:24:08 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-08-27 00:24:08 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6024
+2018-08-27 00:24:10 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET http://69vj.com/page/1> from <GET http://www.69vj.com/page/1>
+2018-08-27 00:24:10 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://69vj.com/page/1> from <GET http://69vj.com/page/1>
+2018-08-27 00:24:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://69vj.com/page/1> (referer: None)
+2018-08-27 00:24:14 [scrapy.dupefilters] DEBUG: Filtered duplicate request: <GET https://69vj.com/video/297-%E4%BA%BA%E5%A6%BB%E5%88%9D%E6%AC%A1%E9%AB%94%E9%A9%97%E9%99%B0%E9%81%93%E6%8C%89%E6%91%A9.html> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2018-08-27 00:24:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://69vj.com/video/297-%E4%BA%BA%E5%A6%BB%E5%88%9D%E6%AC%A1%E9%AB%94%E9%A9%97%E9%99%B0%E9%81%93%E6%8C%89%E6%91%A9.html> (referer: https://69vj.com/page/1)
+2018-08-27 00:24:15 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:53874/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-08-27 00:24:17 [selenium.webdriver.remote.remote_connection] DEBUG: b'{"sessionId":"8c03000858298be47fb34f2699b7183d","status":0,"value":{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab)","userDataDir":"C:\\\\Users\\\\yy\\\\AppData\\\\Local\\\\Temp\\\\scoped_dir13328_27066"},"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Windows NT","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"68.0.3440.75","webStorageEnabled":true}}'
+2018-08-27 00:24:17 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2018-08-27 00:24:17 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:53874/session/8c03000858298be47fb34f2699b7183d/url {"url": "https://69vj.com/video/297-%E4%BA%BA%E5%A6%BB%E5%88%9D%E6%AC%A1%E9%AB%94%E9%A9%97%E9%99%B0%E9%81%93%E6%8C%89%E6%91%A9.html", "sessionId": "8c03000858298be47fb34f2699b7183d"}
+2018-08-27 00:24:31 [selenium.webdriver.remote.remote_connection] DEBUG: b'{"sessionId":"8c03000858298be47fb34f2699b7183d","status":0,"value":null}'
+2018-08-27 00:24:31 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2018-08-27 00:24:31 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:53874/session/8c03000858298be47fb34f2699b7183d/element {"using": "xpath", "value": "//*[@class=\"video_block\"]/div/div/iframe", "sessionId": "8c03000858298be47fb34f2699b7183d"}
+2018-08-27 00:24:31 [selenium.webdriver.remote.remote_connection] DEBUG: b'{"sessionId":"8c03000858298be47fb34f2699b7183d","status":0,"value":{"ELEMENT":"0.43538887498183376-1"}}'
+2018-08-27 00:24:31 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2018-08-27 00:24:31 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:53874/session/8c03000858298be47fb34f2699b7183d/frame {"id": {"ELEMENT": "0.43538887498183376-1", "element-6066-11e4-a52e-4f735466cecf": "0.43538887498183376-1"}, "sessionId": "8c03000858298be47fb34f2699b7183d"}
+2018-08-27 00:24:31 [selenium.webdriver.remote.remote_connection] DEBUG: b'{"sessionId":"8c03000858298be47fb34f2699b7183d","status":0,"value":null}'
+2018-08-27 00:24:31 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2018-08-27 00:24:31 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:53874/session/8c03000858298be47fb34f2699b7183d/element {"using": "xpath", "value": "//*[@id=\"video_html5_api\"]", "sessionId": "8c03000858298be47fb34f2699b7183d"}
+2018-08-27 00:24:31 [selenium.webdriver.remote.remote_connection] DEBUG: b'{"sessionId":"8c03000858298be47fb34f2699b7183d","status":0,"value":{"ELEMENT":"0.3445768381617098-1"}}'
+2018-08-27 00:24:31 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2018-08-27 00:24:31 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:53874/session/8c03000858298be47fb34f2699b7183d/execute {"script": "return arguments[0].currentSrc;", "args": [{"ELEMENT": "0.3445768381617098-1", "element-6066-11e4-a52e-4f735466cecf": "0.3445768381617098-1"}], "sessionId": "8c03000858298be47fb34f2699b7183d"}
+2018-08-27 00:24:31 [selenium.webdriver.remote.remote_connection] DEBUG: b'{"sessionId":"8c03000858298be47fb34f2699b7183d","status":0,"value":"https://vid1-l3.xvideos-cdn.com/videos/3gp/e/a/e/xvideos.com_eaea88a3673b3c6b79b5cda75e379018.mp4?e=1535311084&ri=1024&rs=85&h=26f93088a291476c67ca6160f777cbfa"}'
+2018-08-27 00:24:31 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2018-08-27 00:24:31 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:53874/session/8c03000858298be47fb34f2699b7183d/window {"sessionId": "8c03000858298be47fb34f2699b7183d"}
+2018-08-27 00:24:31 [selenium.webdriver.remote.remote_connection] DEBUG: b'{"sessionId":"8c03000858298be47fb34f2699b7183d","status":0,"value":null}'
+2018-08-27 00:24:31 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2018-08-27 00:24:31 [scrapy.core.scraper] ERROR: Error processing {'file_name': '線上成人影片\\情色按摩成人影片\\人妻初次體驗陰道按摩',
+ 'file_urls': 'https://vid1-l3.xvideos-cdn.com/videos/3gp/e/a/e/xvideos.com_eaea88a3673b3c6b79b5cda75e379018.mp4?e=1535311084&ri=1024&rs=85&h=26f93088a291476c67ca6160f777cbfa',
+ 'url': 'https://69vj.com/video/297-%E4%BA%BA%E5%A6%BB%E5%88%9D%E6%AC%A1%E9%AB%94%E9%A9%97%E9%99%B0%E9%81%93%E6%8C%89%E6%91%A9.html'}
+Traceback (most recent call last):
+  File "C:\Users\yy\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\yy\Anaconda3\lib\site-packages\scrapy\pipelines\media.py", line 80, in process_item
+    dlist = [self._process_request(r, info) for r in requests]
+  File "C:\Users\yy\Anaconda3\lib\site-packages\scrapy\pipelines\media.py", line 80, in <listcomp>
+    dlist = [self._process_request(r, info) for r in requests]
+  File "D:\Python\Project\Scrapy\Video69vj\Video69vj\pipelines.py", line 41, in get_media_requests
+    'referer': referer})
+  File "C:\Users\yy\Anaconda3\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "C:\Users\yy\Anaconda3\lib\site-packages\scrapy\http\request\__init__.py", line 62, in _set_url
+    raise ValueError('Missing scheme in request url: %s' % self._url)
+ValueError: Missing scheme in request url: h
+2018-08-27 00:24:31 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-08-27 00:24:31 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 893,
+ 'downloader/request_count': 4,
+ 'downloader/request_method_count/GET': 4,
+ 'downloader/response_bytes': 40811,
+ 'downloader/response_count': 4,
+ 'downloader/response_status_count/200': 2,
+ 'downloader/response_status_count/301': 2,
+ 'dupefilter/filtered': 144,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 8, 26, 16, 24, 31, 942019),
+ 'log_count/DEBUG': 27,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 4,
+ 'scheduler/dequeued/memory': 4,
+ 'scheduler/enqueued': 4,
+ 'scheduler/enqueued/memory': 4,
+ 'start_time': datetime.datetime(2018, 8, 26, 16, 24, 8, 220638)}
+2018-08-27 00:24:31 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-08-27 22:44:10 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: Video69vj)
+2018-08-27 22:44:10 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.5.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2p  14 Aug 2018), cryptography 2.2.2, Platform Windows-10-10.0.17134-SP0
+2018-08-27 22:44:16 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: Video69vj)
+2018-08-27 22:44:16 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.5.0, Python 3.6.5 |Anaconda, Inc.| (default, Mar 29 2018, 13:32:41) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.0.2p  14 Aug 2018), cryptography 2.2.2, Platform Windows-10-10.0.17134-SP0
+2018-08-27 22:44:16 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'Video69vj', 'LOG_FILE': 'mySpider.log', 'NEWSPIDER_MODULE': 'Video69vj.spiders', 'SPIDER_MODULES': ['Video69vj.spiders'], 'USER_AGENT': 'Xaldon_WebSpider/2.0.b1'}
+2018-08-27 22:44:16 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-08-27 22:44:17 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-08-27 22:44:17 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-08-27 22:44:17 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-08-27 22:44:17 [scrapy.core.engine] INFO: Spider opened
+2018-08-27 22:44:17 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-08-27 22:44:17 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-08-27 22:44:28 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET http://69vj.com/page/1> from <GET http://www.69vj.com/page/1>
+2018-08-27 22:44:30 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://69vj.com/page/1> from <GET http://69vj.com/page/1>
+2018-08-27 22:44:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://69vj.com/page/1> (referer: None)
+2018-08-27 22:44:41 [scrapy.dupefilters] DEBUG: Filtered duplicate request: <GET https://69vj.com/video/377-%e9%9f%93%e5%9c%8b%e6%80%a7%e6%84%9f%e6%ad%a3%e5%a6%b9%e5%a7%8a%e5%a7%8a%e4%b8%80%e5%a4%a7%e6%b8%85%e6%97%a9%e7%99%bc%e6%83%85%e6%91%b8%e4%b8%8a%e5%bc%9f%e5%bc%9f%e7%9a%84%e8%80%81%e4%ba%8c%e5%81%9a.html> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2018-08-27 22:44:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://69vj.com/video/377-%e9%9f%93%e5%9c%8b%e6%80%a7%e6%84%9f%e6%ad%a3%e5%a6%b9%e5%a7%8a%e5%a7%8a%e4%b8%80%e5%a4%a7%e6%b8%85%e6%97%a9%e7%99%bc%e6%83%85%e6%91%b8%e4%b8%8a%e5%bc%9f%e5%bc%9f%e7%9a%84%e8%80%81%e4%ba%8c%e5%81%9a.html> (referer: https://69vj.com/page/1)
+2018-08-27 22:44:43 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:58439/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--headless"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--headless"]}}}
+2018-08-27 22:44:45 [selenium.webdriver.remote.remote_connection] DEBUG: b'{"sessionId":"1bd3b696ebab1e6f6db6893ba11e106d","status":0,"value":{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab)","userDataDir":"C:\\\\Users\\\\yy\\\\AppData\\\\Local\\\\Temp\\\\scoped_dir8328_10671"},"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Windows NT","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"68.0.3440.75","webStorageEnabled":true}}'
+2018-08-27 22:44:45 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2018-08-27 22:44:45 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:58439/session/1bd3b696ebab1e6f6db6893ba11e106d/url {"url": "https://69vj.com/video/377-%e9%9f%93%e5%9c%8b%e6%80%a7%e6%84%9f%e6%ad%a3%e5%a6%b9%e5%a7%8a%e5%a7%8a%e4%b8%80%e5%a4%a7%e6%b8%85%e6%97%a9%e7%99%bc%e6%83%85%e6%91%b8%e4%b8%8a%e5%bc%9f%e5%bc%9f%e7%9a%84%e8%80%81%e4%ba%8c%e5%81%9a.html", "sessionId": "1bd3b696ebab1e6f6db6893ba11e106d"}
+2018-08-27 22:45:02 [selenium.webdriver.remote.remote_connection] DEBUG: b'{"sessionId":"1bd3b696ebab1e6f6db6893ba11e106d","status":0,"value":null}'
+2018-08-27 22:45:02 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2018-08-27 22:45:02 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:58439/session/1bd3b696ebab1e6f6db6893ba11e106d/element {"using": "xpath", "value": "//*[@class=\"video_block\"]/div/div/iframe", "sessionId": "1bd3b696ebab1e6f6db6893ba11e106d"}
+2018-08-27 22:45:02 [selenium.webdriver.remote.remote_connection] DEBUG: b'{"sessionId":"1bd3b696ebab1e6f6db6893ba11e106d","status":0,"value":{"ELEMENT":"0.8971091522829338-1"}}'
+2018-08-27 22:45:02 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2018-08-27 22:45:02 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:58439/session/1bd3b696ebab1e6f6db6893ba11e106d/frame {"id": {"ELEMENT": "0.8971091522829338-1", "element-6066-11e4-a52e-4f735466cecf": "0.8971091522829338-1"}, "sessionId": "1bd3b696ebab1e6f6db6893ba11e106d"}
+2018-08-27 22:45:02 [selenium.webdriver.remote.remote_connection] DEBUG: b'{"sessionId":"1bd3b696ebab1e6f6db6893ba11e106d","status":0,"value":null}'
+2018-08-27 22:45:02 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2018-08-27 22:45:02 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:58439/session/1bd3b696ebab1e6f6db6893ba11e106d/element {"using": "xpath", "value": "//*[@id=\"video_html5_api\"]", "sessionId": "1bd3b696ebab1e6f6db6893ba11e106d"}
+2018-08-27 22:45:02 [selenium.webdriver.remote.remote_connection] DEBUG: b'{"sessionId":"1bd3b696ebab1e6f6db6893ba11e106d","status":0,"value":{"ELEMENT":"0.804095677207662-1"}}'
+2018-08-27 22:45:02 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2018-08-27 22:45:02 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:58439/session/1bd3b696ebab1e6f6db6893ba11e106d/execute {"script": "return arguments[0].currentSrc;", "args": [{"ELEMENT": "0.804095677207662-1", "element-6066-11e4-a52e-4f735466cecf": "0.804095677207662-1"}], "sessionId": "1bd3b696ebab1e6f6db6893ba11e106d"}
+2018-08-27 22:45:02 [selenium.webdriver.remote.remote_connection] DEBUG: b'{"sessionId":"1bd3b696ebab1e6f6db6893ba11e106d","status":0,"value":"https://xvideos-im-9e453f00-19813585-mp4.s.loris.llnwd.net/videos/3gp/d/6/3/xvideos.com_d63cc5fffc6b5d5a7f281f8f52ff1df3.mp4?e=1535387672&ri=1024&rs=85&h=81aef78f52bb7c14e24cd63598774d49"}'
+2018-08-27 22:45:02 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2018-08-27 22:45:02 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:58439/session/1bd3b696ebab1e6f6db6893ba11e106d/window {"sessionId": "1bd3b696ebab1e6f6db6893ba11e106d"}
+2018-08-27 22:45:02 [selenium.webdriver.remote.remote_connection] DEBUG: b'{"sessionId":"1bd3b696ebab1e6f6db6893ba11e106d","status":0,"value":null}'
+2018-08-27 22:45:02 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2018-08-27 22:45:02 [selenium.webdriver.remote.remote_connection] DEBUG: DELETE http://127.0.0.1:58439/session/1bd3b696ebab1e6f6db6893ba11e106d {"sessionId": "1bd3b696ebab1e6f6db6893ba11e106d"}
+2018-08-27 22:45:02 [selenium.webdriver.remote.remote_connection] DEBUG: b'{"sessionId":"","status":0,"value":null}'
+2018-08-27 22:45:02 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2018-08-27 22:45:04 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): xvideos-im-9e453f00-19813585-mp4.s.loris.llnwd.net
+2018-08-27 22:45:06 [urllib3.connectionpool] DEBUG: https://xvideos-im-9e453f00-19813585-mp4.s.loris.llnwd.net:443 "GET /videos/3gp/d/6/3/xvideos.com_d63cc5fffc6b5d5a7f281f8f52ff1df3.mp4?e=1535387672&ri=1024&rs=85&h=81aef78f52bb7c14e24cd63598774d49 HTTP/1.1" 206 22468104
